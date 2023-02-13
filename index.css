@@ -95,16 +95,27 @@ border-radius: 32px;
     outline: 0px solid #0D2167;
 }
 
+.left-side{
+    margin-left: 20px;
+}
+
 .right-side{
     outline: 0px solid green;
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 15px;
 }
 
 .right-side p:nth-of-type(1){
     background-color: #0D2167;
     padding: 10px 10px;
     margin-right: 20px;
+    color: #fff;
+}
+
+.icon{
+    border: 1px solid white;
+cursor: pointer;
 }
