@@ -97,6 +97,10 @@ border-radius: 32px;
 
 .left-side{
     margin-left: 20px;
+     font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #0D2167;
 }
 
 .right-side{
@@ -106,6 +110,7 @@ border-radius: 32px;
     align-items: center;
     justify-content: flex-end;
     gap: 15px;
+   
 }
 
 .right-side p:nth-of-type(1){
@@ -113,9 +118,63 @@ border-radius: 32px;
     padding: 10px 10px;
     margin-right: 20px;
     color: #fff;
+    cursor: pointer;
 }
 
 .icon{
-    border: 1px solid white;
+    border: 1px solid #ccc;
+    background-color: transparent;
 cursor: pointer;
+padding: 8px 10px;
+color: #0D2167;
+}
+
+.input-section{
+    /* width: 50%; */
+    outline: 0px solid red;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.input{
+    width: 744px;
+    height: 30px;
+    outline: none;
+}
+
+.input-wrapper{
+    position: relative;
+    
+}
+
+.search{
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    outline: 0px solid red;
+    gap: 5px;
+}
+
+.settings-block{
+    display: flex;
+    justify-content: end;
+    flex: 1;
+    gap: 10px;
+    outline: 0px solid red;
+    padding: 10px 10px;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+
+}
+
+.icn{
+    cursor: pointer;
+    color: #0D2167;
 }
